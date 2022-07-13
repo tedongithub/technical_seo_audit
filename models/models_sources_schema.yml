@@ -1,0 +1,12 @@
+version: 2
+
+
+sources:
+  - name: bq_sources
+    database: seo-data-pipeline-89
+    tables:
+      - name: accounts
+      - name: deepcrawl
+      - name: ga
+      - name: gsc
+      - name: gsc_keywords
